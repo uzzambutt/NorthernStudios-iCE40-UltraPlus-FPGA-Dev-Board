@@ -1,0 +1,23 @@
+# KiCad files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+*-bak
+fp-info-cache
+# 3D cache and local configs
+.kicad_wks
+# KiCad lock files
+*.lck
+
+# DRC and ERC reports
+*.drc
+*.erc
+*.rpt
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
