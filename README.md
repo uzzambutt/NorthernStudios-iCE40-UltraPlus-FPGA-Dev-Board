@@ -61,4 +61,4 @@ git clone https://github.com/uzzambutt/NorthernStudios-iCE40-UltraPlus-FPGA-Dev-
 
 ## License
 
-This project is licensed under the **CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S)** or **MIT License** (TBD). See the LICENSE file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](file:///D:/NS%20FPGA%20V2/LICENSE) file for details.
