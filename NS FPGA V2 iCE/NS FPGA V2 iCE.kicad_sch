@@ -9678,7 +9678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_5x5mm_CW"
+		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 			(at 90.17 101.6 0)
 			(effects
 				(font
