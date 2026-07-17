@@ -7497,6 +7497,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 204.47) (xy 378.46 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148320db-6755-46a4-bacc-2649be808927")
+	)
+	(wire
+		(pts
 			(xy 232.41 217.17) (xy 232.41 214.63)
 		)
 		(stroke
@@ -7817,6 +7827,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 224.79) (xy 339.09 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a27e089-ff28-43dc-9d64-de3238caf753")
+	)
+	(wire
+		(pts
 			(xy 77.47 95.25) (xy 77.47 91.44)
 		)
 		(stroke
@@ -8044,6 +8064,16 @@
 			(type default)
 		)
 		(uuid "87654b1c-6085-46d5-809a-93a1f0fcd983")
+	)
+	(wire
+		(pts
+			(xy 339.09 204.47) (xy 339.09 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f2a5a2-7d72-47da-be31-36f059c1cf45")
 	)
 	(wire
 		(pts
@@ -8646,12 +8676,12 @@
 		(uuid "fe69b1d1-6970-4951-9d0a-9f06bbc3a720")
 	)
 	(label "IOT_49a"
-		(at 326.39 220.98 180)
+		(at 378.46 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "014433b7-b97c-4065-b6f9-878aae206838")
 	)
@@ -8736,12 +8766,12 @@
 		(uuid "10ab4a98-cb03-4c1b-a952-ae2e4916fead")
 	)
 	(label "IOB_23b"
-		(at 389.89 193.04 0)
+		(at 339.09 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "11ebc1b7-f665-4f4b-92a7-57b26fdf788f")
 	)
@@ -8756,12 +8786,12 @@
 		(uuid "1d1feab8-f6bb-49b6-9a16-c79ca8717948")
 	)
 	(label "IOB_29b"
-		(at 389.89 200.66 0)
+		(at 339.09 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1e67a07f-d55d-4d92-8861-fc577e5de3fe")
 	)
@@ -8826,7 +8856,7 @@
 		(uuid "3d18de77-f037-4c1b-9c4b-f8aa4405ab1c")
 	)
 	(label "IOB_22a"
-		(at 389.89 190.5 0)
+		(at 378.46 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8916,7 +8946,7 @@
 		(uuid "51caaa89-c158-4ec1-a7f4-a10bfdbcd0f7")
 	)
 	(label "IOB_9b"
-		(at 391.16 236.22 0)
+		(at 378.46 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8966,7 +8996,7 @@
 		(uuid "59b5623d-fd41-4cfd-bd45-e16d412bd813")
 	)
 	(label "IOT_46b_G0"
-		(at 326.39 215.9 180)
+		(at 339.09 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8976,7 +9006,7 @@
 		(uuid "5f0eb930-c872-41a8-a617-04d05bf7622f")
 	)
 	(label "IOB_20a"
-		(at 389.89 187.96 0)
+		(at 378.46 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9016,7 +9046,7 @@
 		(uuid "64746b1f-5796-4a72-b2e1-e65df94fe8e4")
 	)
 	(label "IOT_41a"
-		(at 326.39 203.2 180)
+		(at 339.09 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9026,7 +9056,7 @@
 		(uuid "6a1a035f-3030-4a4a-b6a4-d95ed63e7f13")
 	)
 	(label "IOT_36b"
-		(at 326.39 193.04 180)
+		(at 339.09 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9046,7 +9076,7 @@
 		(uuid "6fde114e-8e27-4995-95a9-b28ee1825180")
 	)
 	(label "IOB_8a"
-		(at 391.16 233.68 0)
+		(at 378.46 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9066,7 +9096,7 @@
 		(uuid "75131319-8936-4200-a082-abe109f68851")
 	)
 	(label "IOT_43a"
-		(at 326.39 208.28 180)
+		(at 339.09 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9076,7 +9106,7 @@
 		(uuid "7b31e811-c6e2-4a30-b718-df0b8d9c6370")
 	)
 	(label "IOB_6a"
-		(at 391.16 231.14 0)
+		(at 378.46 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9096,7 +9126,7 @@
 		(uuid "8a45985c-87e8-416a-af6d-9c801eb1ffe7")
 	)
 	(label "IOB_3b_G6"
-		(at 391.16 223.52 0)
+		(at 378.46 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9116,12 +9146,12 @@
 		(uuid "90919dda-c07a-4d38-bac1-78f8a5efb866")
 	)
 	(label "IOB_24a"
-		(at 389.89 195.58 0)
+		(at 339.09 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "919ab2b3-fe07-4ac9-b9ca-8e6570edb983")
 	)
@@ -9136,7 +9166,7 @@
 		(uuid "9a9366e0-50dd-4550-bd40-bf9f431a0bca")
 	)
 	(label "IOB_12a"
-		(at 389.89 182.88 0)
+		(at 378.46 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9146,7 +9176,7 @@
 		(uuid "9c7a1859-b904-4d17-af83-112eef8036b7")
 	)
 	(label "IOB_4a"
-		(at 391.16 226.06 0)
+		(at 378.46 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9156,7 +9186,7 @@
 		(uuid "9fe1f032-b96e-4212-af00-7b8501224f98")
 	)
 	(label "IOB_5b"
-		(at 391.16 228.6 0)
+		(at 378.46 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9206,7 +9236,7 @@
 		(uuid "a999a0b7-06c2-487a-8601-e986c7e3f58f")
 	)
 	(label "IOT_48b"
-		(at 326.39 218.44 180)
+		(at 339.09 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9215,8 +9245,18 @@
 		)
 		(uuid "af2406ae-4cfd-4a9d-8d31-59008e88e91e")
 	)
+	(label "IOB_24a"
+		(at 71.12 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af3ec42c-caca-49a6-ba22-8498aaed87b6")
+	)
 	(label "IOB_Oa"
-		(at 391.16 218.44 0)
+		(at 378.46 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9246,12 +9286,12 @@
 		(uuid "b25af26d-932e-4377-8953-be77655aad49")
 	)
 	(label "IOT_45a_G1"
-		(at 326.39 213.36 180)
+		(at 378.46 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b3b91192-58a0-4568-8af9-d27c7e549be3")
 	)
@@ -9266,7 +9306,7 @@
 		(uuid "b441ae34-b4f8-4135-8ca9-f7d21146eff2")
 	)
 	(label "IOT_38b"
-		(at 326.39 198.12 180)
+		(at 339.09 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9306,7 +9346,7 @@
 		(uuid "d32d230f-e781-4f44-8301-832b20d4705b")
 	)
 	(label "1OB_18a"
-		(at 389.89 185.42 0)
+		(at 378.46 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9345,16 +9385,6 @@
 		)
 		(uuid "d8c678eb-3311-4dba-802a-8121292c6d38")
 	)
-	(label "IOB_24a"
-		(at 71.12 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d95d8ce6-d470-4efb-8e11-88151fe95a28")
-	)
 	(label "IOT_46b_G0"
 		(at 66.04 78.74 0)
 		(effects
@@ -9366,7 +9396,7 @@
 		(uuid "db04e866-5d10-4830-8af3-7f26ebfcbde2")
 	)
 	(label "IOT_39a"
-		(at 326.39 200.66 180)
+		(at 339.09 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9376,7 +9406,7 @@
 		(uuid "db2ba3da-bf6e-4930-bad0-02b15017d955")
 	)
 	(label "IOB_2a"
-		(at 391.16 220.98 0)
+		(at 378.46 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9396,7 +9426,7 @@
 		(uuid "df1da979-5dc0-49a5-9081-2fb422cea9d8")
 	)
 	(label "IOT_42b"
-		(at 326.39 205.74 180)
+		(at 339.09 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9426,12 +9456,12 @@
 		(uuid "e5a40149-03a6-4c5c-adc0-b3a88b726978")
 	)
 	(label "IOT_50b"
-		(at 326.39 223.52 180)
+		(at 378.46 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f1601fb8-570a-4345-ba01-e6d944a78515")
 	)
@@ -9456,7 +9486,7 @@
 		(uuid "f70f56e8-3f01-41c9-90a5-b794179deed1")
 	)
 	(label "IOT_37a"
-		(at 326.39 195.58 180)
+		(at 339.09 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9466,7 +9496,7 @@
 		(uuid "f81902f9-7b83-4ba6-a5b7-f28c0dc38ec9")
 	)
 	(label "IOT_44b"
-		(at 326.39 210.82 180)
+		(at 339.09 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9968,7 +9998,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 205.74 270)
+		(at 339.09 204.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9977,7 +10007,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a8ffe15-c0a9-4839-9ae0-83fb303b08dc")
 		(property "Reference" "#PWR069"
-			(at 332.74 205.74 0)
+			(at 332.74 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +10016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 205.7399 90)
+			(at 335.28 204.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 205.74 0)
+			(at 339.09 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +10034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 205.74 0)
+			(at 339.09 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 205.74 0)
+			(at 339.09 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical"
 			(at 90.17 212.09 0)
 			(effects
 				(font
@@ -11190,7 +11220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 378.46 205.74 90)
+		(at 378.46 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11199,7 +11229,7 @@
 		(fields_autoplaced yes)
 		(uuid "26096634-2198-4fb7-9795-7f1afdf908d5")
 		(property "Reference" "#PWR072"
-			(at 384.81 205.74 0)
+			(at 384.81 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,7 +11238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.27 205.7399 90)
+			(at 382.27 204.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +11247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 205.74 0)
+			(at 378.46 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 205.74 0)
+			(at 378.46 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +11265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 378.46 205.74 0)
+			(at 378.46 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17335,73 +17365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 339.09 228.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "babbead7-1a20-468e-a0a5-81a4092a2024")
-		(property "Reference" "#PWR071"
-			(at 332.74 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 335.28 228.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d84c8eeb-c0a5-4971-bf48-61d80f6ca5c3")
-		)
-		(instances
-			(project "NS FPGA V2 iCE"
-				(path "/e5ab4faf-ebef-462a-bc72-a710b4723b51"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 135.89 217.17 0)
 		(unit 1)
@@ -18925,7 +18888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical"
 			(at 93.98 36.83 0)
 			(effects
 				(font
@@ -19394,7 +19357,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 339.09 226.06 90)
+		(at 339.09 224.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19403,7 +19366,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee879216-4401-45f1-9dba-2f534a166e6c")
 		(property "Reference" "#PWR074"
-			(at 342.9 226.06 0)
+			(at 342.9 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,7 +19375,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 335.28 226.0599 90)
+			(at 335.28 224.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19421,7 +19384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 226.06 0)
+			(at 339.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19430,7 +19393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 226.06 0)
+			(at 339.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19439,7 +19402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 339.09 226.06 0)
+			(at 339.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
