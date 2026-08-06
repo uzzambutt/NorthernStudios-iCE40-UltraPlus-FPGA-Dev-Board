@@ -22,17 +22,17 @@
 
 ---
 
-## 🌟 Overview
+## Overview
+**NorthernStudios iCE40-UltraPlus FPGA Dev Board (V2)** is a small, open-source development board based on the tiny form factor that utilizes **Lattice iCE40 UltraPlus (iCE40UP5K)** FPGA. This development board is specially built for the **Hack Club Macondo** for low power edge computing, TinyML, RISC-V softcores and hardware developments.
 
-The **NorthernStudios iCE40-UltraPlus FPGA Dev Board (V2)** is a compact, open-source development board with a small form factor designed around the **Lattice iCE40 UltraPlus (iCE40UP5K)** FPGA. Designed specifically for the **Hack Club Macondo**, this board is tailored for low-power edge computing, machine learning (TinyML), RISC-V softcores, and hardware development.
 
-Featuring an onboard USB-to-UART bridge, a high-capacity 128M-bit SPI Flash, and a highly stable multi-rail power system, it offers cmplete utility for developers.
+The features of this development board include the integrated USB-to-UART bridge, 128M-bit SPI Flash and the multi rail power supply system.
 
 ---
 
-## 🛠️ Hardware Specifications
+##  Hardware Specifications
 
-### 🧠 Core FPGA: Lattice iCE40UP5K
+### FPGA Chip: Lattice iCE40UP5K
 * **Logic Cells**: 5,280 Look-Up Tables (LUTs)
 * **Block RAM (BRAM)**: 120 Kbit
 * **Single-Port RAM (SPRAM)**: 1,024 Kbit (128 KB, ideal for microcontroller program memory)
@@ -40,7 +40,7 @@ Featuring an onboard USB-to-UART bridge, a high-capacity 128M-bit SPI Flash, and
 * **Hardened IP**: 2x I2C, 2x SPI
 * **Constant Current Drivers**: 3x 24mA dedicated driver outputs (suited for RGB LED control)
 
-### 🔌 Key Components
+### Important components
 | Component | Function | Description |
 | :--- | :--- | :--- |
 | **FPGA** | [Lattice iCE40UP5K-SG48ITR](https://www.latticesemi.com/Products/FPGAandCPLD/iCE40UltraPlus) | SG48 package, 48-pin QFN, highly integrated low-power FPGA. |
@@ -52,7 +52,7 @@ Featuring an onboard USB-to-UART bridge, a high-capacity 128M-bit SPI Flash, and
 
 ---
 
-## 🎛️ Onboard Interfaces & I/O
+##  Onboard Interfaces & I/O
 * **RGB LED**: Dedicated addressable RGB LED (LED_ARGB) connected to the FPGA's constant current outputs for status and visualization.
 * **User I/O**: Multi-pin expansion breakout headers featuring standard 0.1" pitch GPIO pins.
 * **Tactile Buttons**:
@@ -61,17 +61,17 @@ Featuring an onboard USB-to-UART bridge, a high-capacity 128M-bit SPI Flash, and
 
 ---
 
-## 📐 PCB Design & Layers
+## PCB Design & Layers
 
 This PCB is designed as a high-density, **4-layer board** utilizing KiCad to ensure clean signal routing, stable ground planes, and dedicated power rails. 
 
-### 🔍 Outer Silkscreen & Soldermask
+###  Outer Silkscreen & Soldermask
 * **Front View (Main Thumbnail)**:
   ![Front Soldermask](src/Front%20SM.webp)
 * **Back View**:
   ![Back Soldermask](src/Back%20SM.webp)
 
-### 🥞 Internal Copper Layer Stackup
+###  Internal Copper Layers
 * **Layer 1 (L1 - Top Copper / Signals)**:
   ![Layer 1 Top Copper](src/L1.webp)
 * **Layer 2 (L2 - Inner Ground Plane)**:
@@ -83,30 +83,7 @@ This PCB is designed as a high-density, **4-layer board** utilizing KiCad to ens
 
 ---
 
-## 📂 Repository Structure
-
-```
-├── Models/                     # 3D step models of components
-│   └── ICE40UP5K-SG48ITR50.STEP
-├── NS FPGA V2 iCE/             # KiCad Project Files
-│   ├── NS FPGA V2 iCE.kicad_pro   # KiCad Project File
-│   ├── NS FPGA V2 iCE.kicad_sch   # Schematic Sheet
-│   └── NS FPGA V2 iCE.kicad_pcb   # PCB Layout
-├── src/                        # Graphic assets and layer renders
-│   ├── Front SM.webp           # Front Soldermask render
-│   ├── Back SM.webp            # Back Soldermask render
-│   ├── L1.webp                 # Top Copper Layer render
-│   ├── L2.webp                 # Inner Ground Plane render
-│   ├── L3.webp                 # Inner Power Plane render
-│   └── L4.webp                 # Bottom Copper Layer render
-├── .gitignore                  # Gitignore rules for KiCad & system files
-├── LICENSE                     # MIT License details
-└── README.md                   # Project documentation
-```
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### 💻 Open Source Toolchain Setup
 The Lattice iCE40 UltraPlus is fully supported by the open-source FPGA toolchain, providing quick compilation and programming:
@@ -116,15 +93,10 @@ The Lattice iCE40 UltraPlus is fully supported by the open-source FPGA toolchain
 3. **Bitstream Packing**: [icepack](https://github.com/YosysHQ/icestorm)
 4. **Programming**: [iceprog](https://github.com/YosysHQ/icestorm)
 
-*Note: You can also use Lattice's proprietary IDE **Lattice Radiant** or **iCEcube2**.*
-
-### 🛠️ Cloning the Project
-```bash
-git clone https://github.com/uzzambutt/NorthernStudios-iCE40-UltraPlus-FPGA-Dev-Board.git
-```
+*Note: You can also use Lattice's IDE **Lattice Radiant** or **iCEcube2**.*
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**. For details, see the [LICENSE](LICENSE) file.
