@@ -21,3 +21,6 @@ fp-info-cache
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# KiCad 8+ local history
+**/.history/
