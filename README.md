@@ -23,7 +23,7 @@
 ---
 
 ## Overview
-**NorthernStudios iCE40-UltraPlus FPGA Dev Board (V2)** is a small, open-source development board based on the tiny form factor that utilizes **Lattice iCE40 UltraPlus (iCE40UP5K)** FPGA. This development board is specially built for the **Hack Club Macondo** for low power edge computing, TinyML, RISC-V softcores and hardware developments.
+**NorthernStudios iCE40-UltraPlus FPGA Dev Board (V2)** is a small, open-source development board based on the tiny form factor that utilizes **Lattice iCE40 UltraPlus (iCE40UP5K)** FPGA. This development board is specially built for low power edge computing, TinyML, RISC-V softcores and hardware developments.
 
 
 The features of this development board include the integrated USB-to-UART bridge, 128M-bit SPI Flash and the multi rail power supply system.
