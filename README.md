@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Designed by: Muhammad Uzzam Butt // Made for Macondo</b>
+  <b>Designed by: Muhammad Uzzam Butt</b>
 </p>
 
 <p align="center">
